@@ -1,0 +1,11 @@
+name: First github action
+on: [push]
+
+jobs: 
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print first message
+              run: echo "first message"
+            - name: Print second message
+              run: echo "second message"
